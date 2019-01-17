@@ -19,7 +19,7 @@ The Julia set is basically a piece of the Mandelbrot set. Instead of continuousl
 * Z4=Z32+C
 
 ### Sets
-A set in math is a collection of objects (ex. People, letters, numbers, etc...).
+A set in math is a collection of objects (ex. People, letters, numbers, etc...) where order and repetition do not matter. The Julia set is a set of point/coordinates on the complex plane within a certain range.
 
 ### Pixels
 In its broadest terms, a pixel is a mappable position, for example, on a screen. To map this position, we use computer science. So, relating this idea back to the Mandelbrot Set and the Julia Sets, we can see that a pixel is made up from the ‘A’ and the ‘B’ values of the ‘C’ value. Remember that the complex plane is this: 
