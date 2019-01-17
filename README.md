@@ -1,13 +1,13 @@
 # CodingChallenge: Julia Set
 Blake, Thomas, Zach
 
-## Julia Set
+### Julia Set
 
-## Sets
+### Sets
 
-## Pixels
+### Pixels
 
-## Emerging Technology
+### Emerging Technology
 
 Deliverables:
 
