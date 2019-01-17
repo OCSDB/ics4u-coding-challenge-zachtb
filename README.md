@@ -2,6 +2,7 @@
 Blake, Thomas, Zach
 
 ### Julia Set
+The Julia set is basically a piece of the Mandelbrot set. Instead of continuously generating a ‘C’ value, we use a constant. The constant has a Real component, and a Complex component. The X-Axis represents ‘A’, and the Y-axis represents ‘B’. 
 
 ### Sets
 
