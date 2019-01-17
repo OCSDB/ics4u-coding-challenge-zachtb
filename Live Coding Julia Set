@@ -1,0 +1,71 @@
+float angle = 0;
+float r=0.7885;
+
+void setup() {
+  size(800, 640);
+}
+void draw() {
+
+  float ca = r*cos(angle);
+  float cb = r*sin(angle);
+
+  angle += 0.005;
+
+  // Establish a range of values on the complex plane
+  // A different range will allow us to "zoom" in or out on the fractal
+
+  // It all starts with the width, try higher or lower values
+  float w = 5;
+  float h = (w * height) / width;
+
+  // Make sure we can write to the pixels[] array.
+  // Only need to do this once since we don't do any other drawing.
+  loadPixels();
+
+  // Maximum number of iterations for each point on the complex plane
+  int maxiterations = 100;
+
+  // Calculate amount we increment x,y for each pixel
+  float dx = (w) / (width);
+  float dy = (h) / (height);
+
+  // Start y
+  float y = -h/2;
+  for (int j = 0; j < height; j++) {
+    // Start x
+    float x = -w/2;
+    for (int i = 0; i < width; i++) {
+
+      // Now we test, as we iterate z = z^2 + cm does z tend towards infinity?
+      float a = x;
+      float b = y;
+      int n = 0;
+      while (n < maxiterations) {
+        float aa = a * a;
+        float bb = b * b;
+        // Infinity in our finite world is simple, let's just consider it 16
+        if (aa + bb > 16.0) {
+          break;  // Bail
+        }
+        float twoab = 2.0 * a * b;
+        a = aa - bb + ca;
+        b = twoab + cb;
+        n++;
+      }
+
+      // We color each pixel based on how long it takes to get to infinity
+      // If we never got there, let's pick the color black
+      if (n == maxiterations) {
+        pixels[i+j*width] = color(0);
+      } else {
+        // Gosh, we could make fancy colors here if we wanted
+        float hu = (sqrt(float(n) / maxiterations))*255;
+        pixels[i+j*width] = color(hu+15, 0, hu*1.5);
+      }
+      x += dx;
+    }
+    y += dy;
+  }
+  updatePixels();
+  println(frameRate);
+}
