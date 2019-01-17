@@ -21,6 +21,9 @@ The Julia set is basically a piece of the Mandelbrot set. Instead of continuousl
 ### Sets
 
 ### Pixels
+In its broadest terms, a pixel is a mappable position, for example, on a screen. To map this position, we use computer science. So, relating this idea back to the Mandelbrot Set and the Julia Sets, we can see that a pixel is made up from the ‘A’ and the ‘B’ values of the ‘C’ value. Remember that the complex plane is this: 
+The X-Axis is the real number component and the Y-Axis is Imaginary component. Plotting this Complex Number reveals a pixel of the Julia Set.
+The understanding of a pixel in the Julia Set and the Mandelbrot set can be applied to displays. A physical pixel in a display is mapped by a point in columns and rows. By looking at what is stored in a particular point in the set of pixels reveals the RGB information. 
 
 ### Emerging Technology
 
