@@ -2,13 +2,13 @@
 Blake, Thomas, Zach
 
 ### Presentation Plan
-| Time          | Content       |
-| ------------- | ------------- |
+| Time           | Content                 |
+| -------------  | -------------           |
 | 10:38 - 10:48  | Explanation of Julia set|
-| 10:48 - 10:58  | Concepts and aplication
-| 10:58 - 11:28  | Live Coding  |
-| 11:28 - 11:38  | Questions  |
-| 11:38 - 11:53  | Experimenting with code  |
+| 10:48 - 10:58  | Concepts and aplication |
+| 10:58 - 11:28  | Live Coding             |
+| 11:28 - 11:38  | Questions               |
+| 11:38 - 11:53  | Experimenting with code |
 
 ### Julia Set
 The Julia set is basically a piece of the Mandelbrot set. Instead of continuously generating a ‘C’ value, we use a constant. The constant has a Real component, and a Complex component. The X-Axis represents ‘A’, and the Y-axis represents ‘B’. For example, for a specific Julia Set, we have 2 parts to the constant. The ‘C’ value then becomes part of this recursive formula: 
@@ -19,6 +19,7 @@ The Julia set is basically a piece of the Mandelbrot set. Instead of continuousl
 * Z4=Z32+C
 
 ### Sets
+A set in math is a collection of objects (ex. People, letters, numbers, etc...).
 
 ### Pixels
 In its broadest terms, a pixel is a mappable position, for example, on a screen. To map this position, we use computer science. So, relating this idea back to the Mandelbrot Set and the Julia Sets, we can see that a pixel is made up from the ‘A’ and the ‘B’ values of the ‘C’ value. Remember that the complex plane is this: 
