@@ -1,6 +1,15 @@
 # CodingChallenge: Julia Set
 Blake, Thomas, Zach
 
+### Presentation Plan
+| Time          | Content       |
+| ------------- | ------------- |
+| 10:38 - 10:48  | Explanation of Julia set|
+| 10:48 - 10:58  | Concepts and aplication
+| 10:58 - 11:28  | Live Coding  |
+| 11:28 - 11:38  | Questions  |
+| 11:38 - 11:53  | Experimenting with code  |
+
 ### Julia Set
 The Julia set is basically a piece of the Mandelbrot set. Instead of continuously generating a ‘C’ value, we use a constant. The constant has a Real component, and a Complex component. The X-Axis represents ‘A’, and the Y-axis represents ‘B’. 
 
