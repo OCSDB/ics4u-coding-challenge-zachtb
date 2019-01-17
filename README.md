@@ -9,6 +9,9 @@ Blake, Thomas, Zach
 
 ### Emerging Technology
 
+### Slides
+Link: https://docs.google.com/presentation/d/1TIOs75pAizXbu-f9Wf1tV-9NqN0lP0pTOCaB9En4vdI/edit#slide=id.g4c86c872bf_1_5
+
 Deliverables:
 
 1. The code for each of your projects: Each person in the team is responsible for creating their own copy of the challenge.
