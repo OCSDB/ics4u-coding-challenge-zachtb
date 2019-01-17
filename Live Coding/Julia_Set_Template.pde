@@ -3,6 +3,7 @@ float r=0.7885;
 
 void setup() {
   size(800, 640);
+  colorMode(HSB);
 }
 void draw() {
 
@@ -45,7 +46,7 @@ void draw() {
         pixels[i+j*width] = color(0);
       } else {
         float hu = (sqrt(float(n) / maxiterations))*255;
-        pixels[i+j*width] = color(hu+15, 0, hu*1.5);
+        pixels[i+j*width] = color(hu, 150, 255);
       }
       x += dx;
     }
