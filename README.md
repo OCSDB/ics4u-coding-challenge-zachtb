@@ -32,10 +32,4 @@ The understanding of a pixel in the Julia Set and the Mandelbrot set can be appl
 * [Digital signature scheme](https://pdfs.semanticscholar.org/8cd5/e8365d55180a236a6dd6a5a212dddae318bd.pdf) based on Mandelbrot and Julia fractal sets (Proposed but not yet actualized)
 
 ### Slides
-Link: https://docs.google.com/presentation/d/1TIOs75pAizXbu-f9Wf1tV-9NqN0lP0pTOCaB9En4vdI/edit#slide=id.g4c86c872bf_1_5
-
-Notes:
-* You must make a significant connection to:
-    1. Creative coding(explaining to the class how they can incorporate this into their workflow as a learner of technology)
-    2. One research article that connects to computer science.
-    3. One aspect of emerging technology that is highlighted and briefly touched uppn.
+Link: https://docs.google.com/presentation/d/1TIOs75pAizXbu-f9Wf1tV-9NqN0lP0pTOCaB9En4vdI/edit#slide=id.g4c86c872bf_1_
