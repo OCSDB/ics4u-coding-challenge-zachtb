@@ -12,15 +12,11 @@ Blake, Thomas, Zach
 
 ### Julia Set
 The Julia set is basically a piece of the Mandelbrot set. Instead of continuously generating a ‘C’ value, we use a constant. The constant has a Real component, and a Complex component. The X-Axis represents ‘A’, and the Y-axis represents ‘B’. For example, for a specific Julia Set, we have 2 parts to the constant. The ‘C’ value then becomes part of this recursive formula: 
-Z0=0
-
-Z1=Z02+C
-
-Z2=Z12+C
-
-Z3=Z22+C
-
-Z4=Z32+C
+* Z0=0
+* Z1=Z02+C
+* Z2=Z12+C
+* Z3=Z22+C
+* Z4=Z32+C
 
 ### Sets
 
