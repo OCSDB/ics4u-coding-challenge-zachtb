@@ -26,6 +26,9 @@ The X-Axis is the real number component and the Y-Axis is Imaginary component. P
 The understanding of a pixel in the Julia Set and the Mandelbrot set can be applied to displays. A physical pixel in a display is mapped by a point in columns and rows. By looking at what is stored in a particular point in the set of pixels reveals the RGB information. 
 
 ### Emerging Technology
+* Currently used to visualize the complex plane
+* [Generating more cat pictures](https://blogs.scientificamerican.com/observations/fractal-kitties-illustrate-the-endless-possibilities-for-julia-sets/) if the internet ever runs out (using the julia set to approximate an objects outline)
+* Digital signature scheme based on Mandelbrot and Julia fractal sets (Proposed but not yet actualized)
 
 ### Slides
 Link: https://docs.google.com/presentation/d/1TIOs75pAizXbu-f9Wf1tV-9NqN0lP0pTOCaB9En4vdI/edit#slide=id.g4c86c872bf_1_5
