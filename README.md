@@ -1,5 +1,6 @@
-# CodingChallenge
-Coding Challenge Starter Repository
+# CodingChallenge: Julia Set
+Blake, Thomas, Zach
+
 
 Deliverables:
 
