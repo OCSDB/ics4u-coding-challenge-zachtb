@@ -1,5 +1,8 @@
 // Adapted from Daniel Shiffman's Julia set code
 // Original code: https://github.com/CodingTrain/website/blob/master/CodingChallenges/CC_022_JuliaSet/Processing/CC_022_JuliaSet/CC_022_JuliaSet.pde
+// Coded in OpenProcessing
+// Already object oriented (the code written are just the methods of sketch.js)
+// For more information visit https://processing.org/ 
 
 float angle = 0;
 float r = 0.6839;
@@ -60,15 +63,15 @@ void draw() {
       float b = y;
       int n = 0;
       while (n < maxiterations) {
-        float aa = a * a * a / b;
-        float bb = b * b * b / a;
+        float aaa_divb = a * a * a / b;
+        float bbb_diva = b * b * b / a;
         // Infinity in our finite world is simple, let's just consider it 16
-        if (aa + bb > 4.0) {
+        if (aaa_divb + bbb_diva > 4.0) {
           break;  // Bail
         }
-        float twoab = 3.0 * a * a * b * b;
-        a = aa - bb + ca;
-        b = twoab + cb;
+        float three_aabb = 3.0 * a * a * b * b;
+        a = aaa_divb - bbb_diva + ca;
+        b = three_aabb + cb;
         n++;
       }
 
